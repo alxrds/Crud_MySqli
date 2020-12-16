@@ -1,6 +1,5 @@
-# MySqli
+# CRUD MySqli Usando PHP
 
-## Backgroud em PHP
+## Backgroud Simples
 
-### Para Sistemas simples de
-### Seleção, Cadastro, Edição, Exclusão e Busca
+### Para Seleção, Cadastro, Edição, Exclusão e Busca
