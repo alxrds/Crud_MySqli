@@ -12,5 +12,3 @@ if(mysqli_num_rows($stmt) > 0){
 }else{
     echo 'Nenhum dado encontrado';
 }
-
-?>
