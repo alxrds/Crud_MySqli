@@ -2,9 +2,9 @@
 
 include 'connection.php';
 
-$id = 1;
-$nome = mysqli_real_escape_string('Athos');
-$sobrenome = mysqli_real_escape_string('Rodrigues');
+$id = $conn->real_escape_string(1);
+$nome = $conn->real_escape_string('Athos');
+$sobrenome = $conn->real_escape_string('Rodrigues');
 
 $sql = "UPDATE tbl_usuario SET nome = '$nome', sobrenome = '$sobrenome' WHERE id = $id";
     
@@ -13,5 +13,3 @@ if($conn->query($sql) === TRUE) {
 } else {
     echo "Erro " . $sql . ' ' . $conn->error;
 }
-
-?>
